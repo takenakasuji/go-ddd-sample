@@ -1,1 +1,1 @@
-# zidane-mark-zero
+# go-ddd-sample
