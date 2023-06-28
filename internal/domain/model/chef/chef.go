@@ -10,7 +10,7 @@ type Chef struct {
 	description string
 }
 
-// NewChef entityなので識別子も引数にとるべきだがRDBの識別子かzidane上には存在しないので悩み中
+// NewChef entityなので識別子も引数にとるべきだがRDBの識別子が存在しないので悩み中
 func NewChef(name *Name) *Chef {
 	chef := new(Chef)
 	chef.name = name
